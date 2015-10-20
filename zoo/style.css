@@ -1,0 +1,77 @@
+@CHARSET "UTF-8";
+
+body{
+    background: url(images/green_dust_scratch.png);
+    /*#9ADAB9*/
+    }
+
+
+
+.annonce{
+	
+	border-radius: 10px;
+	border-color: black;
+	background-color: #ecfcf4;
+	margin-bottom: 2%;
+	padding-bottom: 1%;
+}
+
+
+/*Bouton*/
+/* Lorsqu'un utilisater à voté*/
+.focus{
+	background-color: #C8F0DC;
+}
+
+.taille{
+	width:100px;
+}
+
+
+
+
+
+
+
+
+/* Pour que les cadres de l'annonce soient centrés correctemnt en mobile et bureau */
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* inline-block space fix */
+    /*margin-right: -4px;*/
+}
+
+
+
+@media (max-width: 640px) {
+	.img-annonce {
+		width: 8%;
+		height: 8%;
+	}
+	
+	.taille{
+		width:60px;
+	}
+	
+	.center{
+		margin:auto;
+	}
+	
+	.rien{
+		margin:auto;
+		}
+}
+
+
+
+.img-annonce {
+	width: 4%;
+    height: auto;
+}
+
+
